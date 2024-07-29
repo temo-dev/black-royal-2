@@ -54,7 +54,7 @@ const items = [
 const Skill = () => {
   return (
     <section id="skills" className="skill-area rel z-1">
-      <div className="for-bgc-black pt-130 rpt-100 pb-100 rpb-70">
+      <div className="for-bgc-black pt-130 rpt-100 pb-100 rpb-70 border-neon">
         <div className="container">
           <div className="row gap-100">
             <div className="col-lg-5">
@@ -121,7 +121,7 @@ export const Skill2 = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
-            <div className="skill-content-two rel z-2 rmb-55 wow fadeInUp delay-0-2s">
+            <div className="skill-content-two rel z-2 rmb-55 wow fadeInUp delay-0-2s ">
               <div className="section-title mb-60">
                 <span className="sub-title mb-15">
                   <i className="flaticon-asterisk-1" /> professional skill of me

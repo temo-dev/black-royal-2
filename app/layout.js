@@ -9,6 +9,10 @@ import "@css/nice-select.min.css";
 import "@css/slick.min.css";
 import "@css/style.css";
 import "./globals.css";
+// core styles are required for all packages
+import '@mantine/core/styles.css';
+import '@mantine/carousel/styles.css';
+import { createTheme, MantineProvider } from "@mantine/core";
 
 /** google fonts */
 const inter = Inter({
@@ -26,6 +30,10 @@ const dm_sans = DM_Sans({
 
 /** Font family */
 const fontFamily = `${inter.variable} ${dm_sans.variable} `;
+const theme = createTheme({
+  /** Put your mantine theme override here */
+});
+
 
 export const metadata = {
   title: {
@@ -42,7 +50,9 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${fontFamily} scroll-smooth`}>
       <body>
         <Preloader />
-        {children}
+        <MantineProvider theme={theme}>
+          {children}
+        </MantineProvider>
       </body>
     </html>
   );

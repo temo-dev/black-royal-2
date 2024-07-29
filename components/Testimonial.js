@@ -16,8 +16,8 @@ export default class Testimonial extends Component {
   }
   render() {
     return (
-      <section className="testimonials-area rel z-1">
-        <div className="for-bgc-black py-130 rpy-100">
+      <section className="testimonials-area rel z-1 mb-50">
+        <div className="for-bgc-black py-130 rpy-100 border-neon">
           <div className="container">
             <div className="row gap-90">
               <div className="col-lg-4">

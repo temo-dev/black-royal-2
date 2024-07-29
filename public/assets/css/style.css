@@ -52,16 +52,16 @@
 
 body {
   color: var(--base-color);
-  background: #131313;
+  background-image: url("../images/black-royal/brick-1.jpg");
   font-weight: 400;
   line-height: 30px;
   font-size: 16px;
   font-family: var(--font-inter);
   --base-color: rgba(255, 255, 255, 0.65);
   --heading-color: #ffffff;
-  --primary-color: #c9f31d;
+  --primary-color: #d5b35a;
   --lighter-color: #1f1f1f;
-  --black-color: #070707;
+  --black-color: #1a302c;
   --border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -520,7 +520,7 @@ a.theme-btn.style-three {
 .details-btn {
   width: 50px;
   height: 50px;
-  background: #131313;
+  background: #1a302c;
   line-height: 50px;
   border-radius: 50%;
   text-align: center;
@@ -692,7 +692,7 @@ a.theme-btn.style-three {
   width: 100%;
   height: 100%;
   z-index: 9999999;
-  background-color: #131313;
+  background-color: #1a302c;
   background-repeat: no-repeat;
   background-position: center center;
   background-image: url(../images/preloader.gif);
@@ -4761,7 +4761,12 @@ h6,
 /******************** ## Hero Section ******************/
 /*******************************************************/
 .hero-content {
-  max-width: 415px;
+  /* max-width: 415px; */
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 1.4em;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #d5b35a,
+    0 0 0.8rem #d5b35a, 0 0 2.8rem #d5b35a, inset 0 0 1.3rem #d5b35a;
 }
 .hero-content .h2 {
   display: block;
@@ -4777,22 +4782,22 @@ h6,
 }
 @media only screen and (max-width: 1399px) {
   .hero-content h1 {
-    font-size: 55px;
+    font-size: 100px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-content h1 {
-    font-size: 46px;
+    font-size: 80px;
   }
 }
 @media only screen and (max-width: 767px) {
   .hero-content h1 {
-    font-size: 45px;
+    font-size: 80px;
   }
 }
 @media only screen and (max-width: 375px) {
   .hero-content h1 {
-    font-size: 40px;
+    font-size: 80px;
   }
 }
 .hero-content .hero-btns .theme-btn {
@@ -5697,6 +5702,13 @@ h6,
 /*******************************************************/
 /******************** ## Skills Area ******************/
 /*******************************************************/
+.border-neon {
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 1.4em;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #d5b35a,
+    0 0 0.8rem #d5b35a, 0 0 2.8rem #d5b35a, inset 0 0 1.3rem #d5b35a;
+}
 .skill-item {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -5722,7 +5734,7 @@ h6,
   transition: 0.5s;
   line-height: 1.2;
   border-radius: 14px;
-  background: #131313;
+  background: #1a302c;
   font-family: var(--font-dm_sans);
   color: rgba(255, 255, 255, 0.35);
 }
@@ -5871,7 +5883,7 @@ h6,
   margin-right: 20px;
   width: 40px;
   height: 40px;
-  background: #131313;
+  background: #1a302c;
   line-height: 40px;
   border-radius: 50%;
   text-align: center;
@@ -6118,7 +6130,7 @@ h6,
 .form-style-one .form-group .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #070707;
+  background: #1a302c;
   border-color: var(--primary-color);
 }
 .form-style-one .form-group .nice-select:focus::-webkit-input-placeholder,
@@ -6519,15 +6531,15 @@ h6,
     left top,
     left bottom,
     from(rgba(201, 243, 29, 0)),
-    to(#c9f31d)
+    to(#d5b35a)
   );
   background: -webkit-linear-gradient(
     top,
     rgba(201, 243, 29, 0) 0%,
-    #c9f31d 100%
+    #d5b35a 100%
   );
-  background: -o-linear-gradient(top, rgba(201, 243, 29, 0) 0%, #c9f31d 100%);
-  background: linear-gradient(180deg, rgba(201, 243, 29, 0) 0%, #c9f31d 100%);
+  background: -o-linear-gradient(top, rgba(201, 243, 29, 0) 0%, #d5b35a 100%);
+  background: linear-gradient(180deg, rgba(201, 243, 29, 0) 0%, #d5b35a 100%);
 }
 .project-item.style-three .project-image {
   margin-bottom: 0;
@@ -6945,7 +6957,7 @@ h6,
   color: var(--primary-color);
 }
 .testimonial-item:hover {
-  background: #131313;
+  background: #1a302c;
 }
 .testimonial-item:hover .author:before {
   color: var(--black-color);
@@ -6973,7 +6985,7 @@ h6,
 .pricing-item .pricing-header {
   padding: 47px 50px;
   border-radius: 16px;
-  background: #131313;
+  background: #1a302c;
   border: 1px solid var(--border-color);
 }
 @media only screen and (max-width: 1199px) {
@@ -7720,7 +7732,7 @@ blockquote {
   position: relative;
   padding: 30px 40px 30px 125px;
   color: white;
-  background: #131313;
+  background: #1a302c;
   font-family: var(--font-dm_sans);
   border-left: 3px solid var(--primary-color);
 }
@@ -7933,7 +7945,7 @@ blockquote .blockquote-footer:before {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #131313;
+  background: #1a302c;
   border-radius: 10px;
   max-width: none;
 }
@@ -8174,7 +8186,7 @@ blockquote .blockquote-footer:before {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #131313;
+  background: #1a302c;
   border-radius: 12px;
   border: 1px solid var(--border-color);
 }
@@ -8311,7 +8323,7 @@ blockquote .blockquote-footer:before {
   top: 0;
   left: 0;
   opacity: 0.9;
-  background-color: #131313;
+  background-color: #1a302c;
 }
 @media only screen and (max-width: 375px) {
   .cta-widget {
@@ -8547,5 +8559,25 @@ blockquote .blockquote-footer:before {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #d5b35a,
+    0 0 82px #d5b35a, 0 0 92px #d5b35a, 0 0 102px #d5b35a, 0 0 151px #d5b35a;
+  animation: pulsate 1.5s infinite alternate;
+}
+
+/* Flickering animation */
+@keyframes pulsate {
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #d5b35a,
+      0 0 80px #d5b35a, 0 0 90px #d5b35a, 0 0 100px #d5b35a, 0 0 150px #d5b35a;
+  }
+
+  0% {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #d5b35a,
+      0 0 45px #d5b35a, 0 0 55px #d5b35a, 0 0 70px #d5b35a, 0 0 80px #d5b35a;
   }
 }

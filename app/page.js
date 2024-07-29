@@ -11,20 +11,20 @@ import Skill from "@/components/Skill";
 import Testimonial from "@/components/Testimonial";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 
-export default function Home() {
+export default function HomeOnePage() {
   return (
-    <NoxfolioLayout>
+    <NoxfolioLayout onePageMenu={true}>
       {/* Hero Section Start */}
       <Hero />
       {/* Hero Section End */}
       {/* About Area start */}
-      <About />
+      {/* <About /> */}
       {/* About Area end */}
       {/* Resume Area start */}
-      <Resume />
+      {/* <Resume /> */}
       {/* Resume Area end */}
       {/* Services Area start */}
-      <Services />
+      {/* <Services /> */}
       {/* Services Area end */}
       {/* Skill Area start */}
       <Skill />
@@ -36,16 +36,16 @@ export default function Home() {
       <Testimonial />
       {/* Testimonial Area end */}
       {/* Pricing Area start */}
-      <Pricing />
+      {/* <Pricing /> */}
       {/* Pricing Area end */}
       {/* Contact Area start */}
-      <Contact />
+      {/* <Contact /> */}
       {/* Contact Area end */}
       {/* Blog Area start */}
-      <Blog />
+      {/* <Blog /> */}
       {/* Blog Area end */}
       {/* Client Log start */}
-      <Clients />
+      {/* <Clients /> */}
       {/* Client Log end */}
     </NoxfolioLayout>
   );

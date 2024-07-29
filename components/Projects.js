@@ -11,7 +11,7 @@ const Projects = () => {
           <div className="col-xl-12">
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Latest Works</span>
-              <h2>
+              <h2 className="neonText">
                 Explore My Popular <span>Projects</span>
               </h2>
             </div>
@@ -26,7 +26,7 @@ const Projects = () => {
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Product Design</span>
-              <h2>
+              <h2 className="neonText">
                 <Link legacyBehavior href="project-details">
                   Mobile Application Design
                 </Link>
@@ -52,7 +52,7 @@ const Projects = () => {
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Product Design</span>
-              <h2>
+              <h2 h2 className="neonText">
                 <Link legacyBehavior href="project-details">
                   Website Makeup Design
                 </Link>
@@ -78,7 +78,7 @@ const Projects = () => {
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Product Design</span>
-              <h2>
+              <h2 h2 className="neonText">
                 <Link legacyBehavior href="project-details">
                   Brand Identity and Motion Design
                 </Link>
@@ -104,7 +104,7 @@ const Projects = () => {
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
               <span className="sub-title">Product Design</span>
-              <h2>
+              <h2 h2 className="neonText">
                 <Link legacyBehavior href="project-details">
                   Mobile Application Development
                 </Link>
