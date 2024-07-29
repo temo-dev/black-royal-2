@@ -1443,7 +1443,7 @@ a.theme-btn.style-three {
   background-color: #1a302c;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/_next/static/media/preloader.2c80df80.gif);
+  background-image: url(/images/black-royal/logo-black-01.png);
 }
 
 /* Pagination */
@@ -1775,7 +1775,7 @@ a.theme-btn.style-three {
   max-width: 1620px;
   margin-left: auto;
   margin-right: auto;
-  background: var(--black-color);
+  background: #1a302c5c;
 }
 
 /* Border Radius */
@@ -7379,7 +7379,7 @@ h6,
   -webkit-transform: translate(-50%);
   -ms-transform: translate(-50%);
   transform: translate(-50%);
-  background: url(/_next/static/media/btn-bg.f348dd20.png);
+  /* background: url("../images/projects/btn-bg.png"); */
   background-size: cover;
 }
 @media only screen and (max-width: 991px) {
@@ -8782,7 +8782,7 @@ blockquote .blockquote-footer:before {
   width: 305px;
   height: 305px;
   position: absolute;
-  background: url(/_next/static/media/faq-dots.b80c4562.png);
+  /* background: url(../images/faqs/faq-dots.png); */
 }
 @media only screen and (max-width: 479px) {
   .faq-image-part:after,

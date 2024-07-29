@@ -10,9 +10,9 @@ const Projects = () => {
         <div className="row justify-content-center">
           <div className="col-xl-12">
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-              <span className="sub-title mb-15">Latest Works</span>
+              <span className="sub-title mb-15">Asian Kitchen</span>
               <h2 className="neonText">
-                Explore My Popular <span>Projects</span>
+                KONCEPT BLACK ROYAL
               </h2>
             </div>
           </div>
@@ -20,22 +20,21 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project1.jpg" alt="Project" />
+              <img src="assets/images/black-royal/_DSF6198.jpg" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">BLACK ROYAL</span>
               <h2 className="neonText">
-                <Link legacyBehavior href="project-details">
-                  Mobile Application Design
+                <Link legacyBehavior href="/">
+                  Vaše zdraví pro nás je duležité
                 </Link>
               </h2>
-              <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+              <p style={{ color: "white" }}>
+                Používáme čerstvé suroviny a bylinky si vybíráme sami.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -46,22 +45,21 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project2.jpg" alt="Project" />
+              <img src="assets/images/black-royal/_DSF6200.jpg" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">BLACK ROYAL</span>
               <h2 h2 className="neonText">
-                <Link legacyBehavior href="project-details">
-                  Website Makeup Design
+                <Link legacyBehavior href="/">
+                  Mini show
                 </Link>
               </h2>
-              <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+              <p style={{ color: "white" }}>
+                Dělat nejlepší asijská jídla, která Vám připravíme přímo očima
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -72,22 +70,21 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project3.jpg" alt="Project" />
+              <img src="assets/images/black-royal/_DSF6201.jpg" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">BLACK ROYAL</span>
               <h2 h2 className="neonText">
-                <Link legacyBehavior href="project-details">
-                  Brand Identity and Motion Design
+                <Link legacyBehavior href="/">
+                  Vaše spokojenost je na prvním místě
                 </Link>
               </h2>
-              <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+              <p style={{ color: "white" }}>
+                spokojenost z jídel nikdy nestačí, zdokonaluje se to s moderním a příjemným prostředím v našem bistru.
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -98,20 +95,19 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/projects/project4.jpg" alt="Project" />
+              <img src="assets/images/black-royal/_DSF6206.jpg" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">
             <div className="project-content wow fadeInRight delay-0-2s">
-              <span className="sub-title">Product Design</span>
+              <span className="sub-title">BLACK ROYAL</span>
               <h2 h2 className="neonText">
                 <Link legacyBehavior href="project-details">
-                  Mobile Application Development
+                  Věrnostní program již brzy
                 </Link>
               </h2>
-              <p>
-                Sed ut perspiciatis unde omnin natus totam rem aperiam eaque
-                inventore veritatis architecto beatae
+              <p style={{ color: "white" }}>
+                Zaregistrujte si jednoduše digitální zákazníkovou kartu do Apple Wallet/ Google Pay k získání voucheru s hodnotou 120 kč pro další nákup.
               </p>
               <Link legacyBehavior href="/project-details">
                 <a className="details-btn">
@@ -121,13 +117,13 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project-btn text-center wow fadeInUp delay-0-2s">
+        {/* <div className="project-btn text-center wow fadeInUp delay-0-2s">
           <Link legacyBehavior href="/projects">
             <a className="theme-btn">
               View More Projects <i className="far fa-angle-right" />
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className="bg-lines">
         <span />

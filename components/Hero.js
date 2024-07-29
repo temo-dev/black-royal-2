@@ -25,18 +25,17 @@ const Hero = () => {
                 <b className="neonText">BLACK ROYAL</b>
               </h1>
               <p style={{ color: "white" }}>
-                We denounce with righteous indignation dislike demoralized by
-                the charms of pleasure
+                Používáme čerstvé suroviny a bylinky si vybíráme sami.
               </p>
               <div className="hero-btns">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="/">
                   <a className="theme-btn">
-                    Hire Me <i className="far fa-angle-right" />
+                    Objednat teď <i className="far fa-angle-right" />
                   </a>
                 </Link>
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="/">
                   <a className="read-more">
-                    Download Resume <i className="far fa-angle-right" />
+                    moje menu <i className="far fa-angle-right" />
                   </a>
                 </Link>
               </div>
@@ -98,9 +97,6 @@ export const Hero2 = () => {
           </div>
         </div>
       </div>
-      <a href="#about" className="scroll-down">
-        <img src="assets/images/hero/scroll-down.png" alt="" />
-      </a>
       <div className="bg-lines">
         <span />
         <span />

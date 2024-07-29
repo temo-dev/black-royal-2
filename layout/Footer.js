@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -32,7 +33,7 @@ const Footer1 = () => {
                 <div className="footer-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <img src="assets/images/logos/logo.png" alt="Logo" />
+                      <Image src="/assets/images/black-royal/logo-black-01.png" alt="Logo" width={140} height={70} />
                     </a>
                   </Link>
                 </div>
@@ -40,7 +41,7 @@ const Footer1 = () => {
             </div>
             <div className="col-lg-7 col-md-7">
               <div className="footer-widget widget_nav_menu wow fadeInUp delay-0-4s">
-                <h6 className="footer-title">Quick Link</h6>
+                {/* <h6 className="footer-title">Quick Link</h6>
                 <ul>
                   <li>
                     <Link legacyBehavior href="services">
@@ -67,10 +68,10 @@ const Footer1 = () => {
                       Contact
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               <div className="footer-widget widget_newsletter wow fadeInUp delay-0-4s">
-                <form action="#">
+                {/* <form action="#">
                   <label htmlFor="email-address">
                     <i className="far fa-envelope" />
                   </label>
@@ -83,7 +84,7 @@ const Footer1 = () => {
                   <button>
                     Sign Up <i className="far fa-angle-right" />
                   </button>
-                </form>
+                </form> */}
               </div>
             </div>
             <div className="col-lg-3 col-md-5">
@@ -91,8 +92,8 @@ const Footer1 = () => {
                 <h6 className="footer-title">Address</h6>
                 <ul>
                   <li>
-                    <i className="far fa-map-marker-alt" /> 55 Main Street, 2nd
-                    block, New York City
+                    <i className="far fa-map-marker-alt" />
+                    <a href="https://maps.app.goo.gl/pa2XTpQPTj6dAF4P7">Radlická 365/154, Nová Waltrovka, Praha-5, Czech</a>
                   </li>
                   <li>
                     <i className="far fa-envelope" />{" "}
@@ -100,7 +101,7 @@ const Footer1 = () => {
                   </li>
                   <li>
                     <i className="far fa-phone" />{" "}
-                    <a href="callto:+880(123)45688">+880 (123) 456 88</a>
+                    <a href="callto:+420 773 683 484">+420 773 683 484</a>
                   </li>
                 </ul>
               </div>
@@ -115,8 +116,8 @@ const Footer1 = () => {
               <div className="copyright-text">
                 <p>
                   Copyright @{date},{" "}
-                  <Link legacyBehavior href="/">
-                    Noxfolio
+                  <Link legacyBehavior href="https://hatss.eu/">
+                    Hat Solutions
                   </Link>{" "}
                   All Rights Reserved
                 </p>
@@ -125,17 +126,17 @@ const Footer1 = () => {
             <div className="col-lg-6 text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
-                  <a href="#">Facebook</a>
+                  <a href="https://www.facebook.com/black-royal.prg">Facebook</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">Twitter</a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="#">Instagram</a>
+                  <a href="https://www.instagram.com/blackroyal_restaurant_prg/">Instagram</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">LinkedIn</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -181,7 +182,7 @@ export const Footer2 = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-8 col-md-7">
+          {/* <div className="col-lg-8 col-md-7">
             <div className="footer-widget widget_nav_menu me-0 wow fadeInUp delay-0-4s">
               <ul>
                 <li>
@@ -216,7 +217,7 @@ export const Footer2 = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-12">
             <hr className="mb-40" />
           </div>
@@ -260,8 +261,8 @@ export const Footer2 = () => {
           <div className="copyright-text text-center">
             <p>
               Copyright @{date},{" "}
-              <Link legacyBehavior href="/">
-                Noxfolio
+              <Link legacyBehavior href="https://hatss.eu/">
+                Hat Solutions
               </Link>{" "}
               All Rights Reserved
             </p>

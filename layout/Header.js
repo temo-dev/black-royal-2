@@ -4,6 +4,7 @@ import { noxfolioUtilits } from "@/utility";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import MultiMenu, { OnePageMenu } from "./Menu";
+import Image from "next/image";
 
 const Header = ({ header, onePageMenu }) => {
   switch (header) {
@@ -39,10 +40,12 @@ const Header1 = ({ onePageMenu }) => {
               <div className="logo">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img
-                      src="assets/images/logos/logo.png"
+                    <Image
+                      src="/assets/images/black-royal/logo-black-01.png"
                       alt="Logo"
                       title="Logo"
+                      width={140}
+                      height={70}
                     />
                   </a>
                 </Link>
@@ -52,7 +55,7 @@ const Header1 = ({ onePageMenu }) => {
               {/* Main Menu */}
               <nav className="main-menu navbar-expand-lg">
                 <div className="navbar-header">
-                  <div className="mobile-logo my-15">
+                  {/* <div className="mobile-logo my-15">
                     <Link legacyBehavior href="/">
                       <a>
                         <img
@@ -62,9 +65,9 @@ const Header1 = ({ onePageMenu }) => {
                         />
                       </a>
                     </Link>
-                  </div>
+                  </div> */}
                   {/* Toggle Button */}
-                  <button
+                  {/* <button
                     type="button"
                     className="navbar-toggle me-4"
                     data-bs-toggle="collapse"
@@ -74,29 +77,29 @@ const Header1 = ({ onePageMenu }) => {
                     <span className="icon-bar" />
                     <span className="icon-bar" />
                     <span className="icon-bar" />
-                  </button>
+                  </button> */}
                 </div>
-                <div
+                {/* <div
                   className={`navbar-collapse collapse clearfix ${
                     toggle ? "show" : ""
                   }`}
                 >
                   {onePageMenu ? <OnePageMenu /> : <MultiMenu />}
-                </div>
+                </div> */}
               </nav>
               {/* Main Menu End*/}
             </div>
             {/* Menu Button */}
             <div className="menu-btns d-none d-lg-block">
               {/* menu sidbar */}
-              <div className="menu-sidebar">
+              {/* <div className="menu-sidebar">
                 <button onClick={() => toggleSidebar()}>
                   <img
                     src="assets/images/shape/sidebar-tottler.svg"
                     alt="Toggler"
                   />
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -165,9 +168,8 @@ const Header2 = ({ onePageMenu }) => {
                   </button>
                 </div>
                 <div
-                  className={`navbar-collapse collapse clearfix ${
-                    toggle ? "show" : ""
-                  }`}
+                  className={`navbar-collapse collapse clearfix ${toggle ? "show" : ""
+                    }`}
                 >
                   {onePageMenu ? (
                     <ul className="navigation onepage clearfix">

@@ -24,14 +24,14 @@ export default class Testimonial extends Component {
                 <div className="testimonials-content-part rel z-2 rmb-55 wow fadeInUp delay-0-2s">
                   <div className="section-title mb-40">
                     <span className="sub-title mb-15">
-                      Clients Testimonials
+                      recenze na google mapě
                     </span>
                     <h2>
-                      I’ve 1253+ Clients <span>Feedback</span>
+                      Mám 666+ klientů <span>
+                        Zpětná vazba</span>
                     </h2>
-                    <p>
-                      Sed ut perspiciatis unde omnin natus totam rem aperiam
-                      eaque inventore veritatis
+                    <p style={{ color: "white" }}>
+                      Zaregistrujte si jednoduše digitální zákazníkovou kartu do Apple Wallet/ Google Pay k získání voucheru s hodnotou 120 kč pro další nákup.
                     </p>
                   </div>
                   <div className="slider-arrows">
@@ -63,65 +63,42 @@ export default class Testimonial extends Component {
                         alt="Author"
                       />
                     </div>
-                    <div className="text">
-                      At vero eoset accusamus et iusto odio dignissimos ducimus
-                      quie blanditiis praesentium voluptatum deleniti atque
-                      corrupti dolores
+                    <div className="text" style={{ color: "white" }}>
+                      Všechno v topu! Jak víc detailněji to popsat? Upřímně jsem nečekal, že to jidlo bude tak skvěle. 🖤 Dal jsem si jejich signature model a mega dobre, to mísení chuti je neskutečné. Masakr. A prostředí? Velice útulné, a krásné, úplně by se tam dalo fotit. 📸
                     </div>
                     <div className="testi-des">
-                      <h5>Rodolfo E. Shannon</h5>
-                      <span>CEO &amp; Founder</span>
+                      <h5>Ondřej Lamcha</h5>
+                      <span>25.06.2024</span>
                     </div>
                   </div>
-                  <div className="testimonial-item wow fadeInUp delay-0-4s">
+                  <div className="testimonial-item wow fadeInUp delay-0-3s">
                     <div className="author">
                       <img
                         src="assets/images/testimonials/author2.png"
                         alt="Author"
                       />
                     </div>
-                    <div className="text">
-                      Nam libero tempore cumsoluta nobise est eligendi optio
-                      cumque nihil impedit quominus idquod maxime placeat facere
-                      possimus
+                    <div className="text" style={{ color: "white" }}>
+                      Moc hezká atmosféra, super jídlo, příjemná obsluha. Není co vytýkat. Sem se rád vrátím zkusit něco dalšího.
                     </div>
                     <div className="testi-des">
-                      <h5>Kenneth J. Dutton</h5>
-                      <span>Web Developer</span>
+                      <h5>Oldřich Urban</h5>
+                      <span>10.07.2024</span>
                     </div>
                   </div>
-                  <div className="testimonial-item wow fadeInUp delay-0-2s">
+                  <div className="testimonial-item wow fadeInUp delay-0-3s">
                     <div className="author">
                       <img
                         src="assets/images/testimonials/author1.png"
                         alt="Author"
                       />
                     </div>
-                    <div className="text">
-                      At vero eoset accusamus et iusto odio dignissimos ducimus
-                      quie blanditiis praesentium voluptatum deleniti atque
-                      corrupti dolores
+                    <div className="text" style={{ color: "white" }}>
+                      Všechno v topu! Jak víc detailněji to popsat? Upřímně jsem nečekal, že to jidlo bude tak skvěle. 🖤 Dal jsem si jejich signature model a mega dobre, to mísení chuti je neskutečné. Masakr. A prostředí? Velice útulné, a krásné, úplně by se tam dalo fotit. 📸
                     </div>
                     <div className="testi-des">
-                      <h5>Rodolfo E. Shannon</h5>
-                      <span>CEO &amp; Founder</span>
-                    </div>
-                  </div>
-                  <div className="testimonial-item wow fadeInUp delay-0-2s">
-                    <div className="author">
-                      <img
-                        src="assets/images/testimonials/author2.png"
-                        alt="Author"
-                      />
-                    </div>
-                    <div className="text">
-                      Nam libero tempore cumsoluta nobise est eligendi optio
-                      cumque nihil impedit quominus idquod maxime placeat facere
-                      possimus
-                    </div>
-                    <div className="testi-des">
-                      <h5>Kenneth J. Dutton</h5>
-                      <span>Web Developer</span>
+                      <h5>Ondřej Lamcha</h5>
+                      <span>25.06.2024</span>
                     </div>
                   </div>
                 </Slider>

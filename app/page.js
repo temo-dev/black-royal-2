@@ -27,8 +27,11 @@ export default function HomeOnePage() {
       {/* <Services /> */}
       {/* Services Area end */}
       {/* Skill Area start */}
-      <Skill />
+      {/* <Skill /> */}
       {/* Skill Area end */}
+      {/* Blog Area start */}
+      <Blog />
+      {/* Blog Area end */}
       {/* Projects Area start */}
       <Projects />
       {/* Projects Area end */}
@@ -41,9 +44,6 @@ export default function HomeOnePage() {
       {/* Contact Area start */}
       {/* <Contact /> */}
       {/* Contact Area end */}
-      {/* Blog Area start */}
-      {/* <Blog /> */}
-      {/* Blog Area end */}
       {/* Client Log start */}
       {/* <Clients /> */}
       {/* Client Log end */}
