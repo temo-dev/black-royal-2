@@ -20,7 +20,7 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/black-royal/_DSF6198.jpg" alt="Project" />
+              <img src="assets/images/black-royal/_DSF6198.webp" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
@@ -45,7 +45,7 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/black-royal/_DSF6200.jpg" alt="Project" />
+              <img src="assets/images/black-royal/_DSF6200.webp" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">
@@ -70,7 +70,7 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/black-royal/_DSF6201.jpg" alt="Project" />
+              <img src="assets/images/black-royal/_DSF6201.webp" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
@@ -95,7 +95,7 @@ const Projects = () => {
         <div className="row align-items-center pb-25">
           <div className="col-lg-6 order-lg-2">
             <div className="project-image wow fadeInLeft delay-0-2s">
-              <img src="assets/images/black-royal/_DSF6206.jpg" alt="Project" />
+              <img src="assets/images/black-royal/_DSF6206.webp" alt="Project" />
             </div>
           </div>
           <div className="col-xl-5 col-lg-6 ms-auto">

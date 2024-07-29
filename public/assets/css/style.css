@@ -695,7 +695,7 @@ a.theme-btn.style-three {
   background-color: #1a302c;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/images/black-royal/logo-black-01.png);
+  background-image: url(../images/black-royal/logo-black-01.png);
 }
 
 /* Pagination */

@@ -20,7 +20,7 @@ const Blog = () => {
             <div className="col-lg-6">
               <div className="blog-item wow fadeInUp delay-0-2s border-neon">
                 <div className="image">
-                  <Image src="/assets/images/black-royal/_DSF6206.jpg" alt="Blog" width={200} height={200} />
+                  <Image src="/assets/images/black-royal/_DSF6206.webp" alt="Blog" width={200} height={200} />
                 </div>
                 <div className="content">
                   <div className="blog-meta mb-35">
